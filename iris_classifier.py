@@ -1,9 +1,10 @@
+-- File đầu tiên chạm vào, xong đó sang file appy
 from sklearn.datasets import load_iris
 # Thay thế thuật toán RandomForest bằng LogisticRegression
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 import pickle as pickle
-
+-- Khong có tiền xử lý dữ liệu 
 # Load Iris dataset
 iris = load_iris()
 X, y = iris.data, iris.target
@@ -22,5 +23,5 @@ clf.fit(X_train, y_train)
 
 print(clf.score(X_test, y_test))
 
-print("Saving model to pickle file.")
+print("Saving model to pickle file.") -- xuất file pkl cả hai dòng 
 pickle.dump(clf, open("iris_model.pkl", 'wb'))
