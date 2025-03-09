@@ -1,2 +1,3 @@
 scikit-learn
 streamlit
+-- Để những thư viện mà mình sử dụng
