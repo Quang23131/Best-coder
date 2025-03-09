@@ -1,3 +1,4 @@
+-- Xây mô hình giao diện trên stream list 
 import streamlit as st
 import pickle
 from sklearn.datasets import load_iris
