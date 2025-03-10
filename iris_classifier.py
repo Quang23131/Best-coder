@@ -1,3 +1,4 @@
+-- Train mô hình xong in ra pkl 
 -- File đầu tiên chạm vào, xong đó sang file appy
 from sklearn.datasets import load_iris
 # Thay thế thuật toán RandomForest bằng LogisticRegression
